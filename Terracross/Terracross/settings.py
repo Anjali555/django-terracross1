@@ -24,9 +24,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 SECRET_KEY = ')ef269f6l9_=c*fn9z=-stdsm322)9z2k-epfr*-f06nf*%o!1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tcterracross.pythonanywhere.com']
 
 
 # Application definition
